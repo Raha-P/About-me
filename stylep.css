@@ -116,4 +116,10 @@
         .intro {
             font-size: 20px;
         }
+        .button {
+            display: block;
+            margin-left: 30px;
+            margin-right: 30px;
+
+        }
     }
