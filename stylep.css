@@ -1,0 +1,119 @@
+     :root {
+        --button-color: rgb(167, 132, 153);
+    }
+
+
+    .h1-font {
+        margin-top: 20px;
+        font-size: 50px;
+        text-align: center;
+
+    }
+
+    .h2-font {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 80px;
+
+    }
+
+    .intro {
+        text-align: center;
+        font-size: 27px;
+        color: rgb(99, 97, 97);
+
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    a {
+        margin: 30px;
+        text-decoration: none;
+    }
+
+    .contact-me {
+        background-color: var(--button-color);
+        padding: 15px;
+        border-radius: 15%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact-me:hover {
+        background-color: white;
+        color: var(--button-color);
+        border: var(--button-color) solid 1px;
+    }
+
+    .about-me {
+        border: 1px solid;
+        border-color: var(--button-color);
+        border-radius: 15%;
+        padding: 15px;
+        color: var(--button-color);
+        text-decoration: none;
+    }
+
+    .about-me:hover {
+        background-color: var(--button-color);
+        color: white;
+    }
+
+    .yoga {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .text {
+        font-size: 18px;
+
+    }
+
+    .button {
+        margin-left: 0;
+        padding: 15px;
+        background-color: var(--button-color);
+        border-color: var(--button-color);
+        border-radius: 10%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        color: rgb(20, 18, 20);
+
+    }
+
+    .nav-link {
+        margin: 10px;
+
+    }
+
+    @media (max-width: 570px) {
+        .pic {
+            display: none;
+        }
+        .container {
+            text-align: center;
+        }
+        .h1-font {
+            font-size: 30px;
+        }
+        .h2-font {
+            font-size: 50px;
+        }
+        .intro {
+            font-size: 20px;
+        }
+    }

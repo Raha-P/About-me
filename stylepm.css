@@ -1,0 +1,74 @@
+
+    h1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 100px;
+    }
+    .h1-font {
+        font-size: 80px;
+    }
+
+    .h2-font {
+        text-align: center;
+        color: rgb(99, 97, 97);
+        font-size: 27px;
+    }
+
+
+    .texts {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    p {
+        padding: 10px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .contact {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .email {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(129, 92, 114);;
+        padding-top: 4px;
+        padding-left: 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .email:hover {
+        color: rgb(180, 138, 166);
+    }
+
+@media (max-width: 570px) {
+    .pic {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .h1-font {
+        font-size: 50px;
+    }
+
+    .h2-font {
+        font-size: 20px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+}
